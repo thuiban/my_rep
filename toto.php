@@ -1,3 +1,3 @@
 <?php
-echo readfile('/etc/passwd')
+echo readfile('/etc/passwd%00')
 ?>
